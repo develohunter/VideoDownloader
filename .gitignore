@@ -43,3 +43,19 @@ local.properties
 # Local patch backups; keep them out of Git releases.
 **/*.backup_*
 /mainactivity_compile_diagnostics.txt
+
+# VideoDownloader privacy protection
+/reports/
+**/reports/
+*.log
+logcat*.txt
+last-report.txt
+report-*.txt
+*.apk
+*.aab
+*.pem
+*.key
+*.p8
+key.properties
+keystore.properties
+signing.properties
